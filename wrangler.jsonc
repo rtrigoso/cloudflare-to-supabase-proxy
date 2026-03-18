@@ -16,7 +16,7 @@
 	"kv_namespaces": [
 		{
 			"binding": "RATE_KV",
-			"id": "RENFOCUS"
+			"id": "46b16557d0a24ba5aff386e860ca674c"
 		},
 		{
 			"binding": "RATE_LIMITING",
