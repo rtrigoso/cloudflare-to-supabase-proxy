@@ -12,6 +12,17 @@
 	},
 	"compatibility_flags": [
 		"nodejs_compat"
+	],
+	"kv_namespaces": [
+		{
+			"binding": "RATE_KV",
+			"id": "RENFOCUS"
+		},
+		{
+			"binding": "RATE_LIMITING",
+			"id": "46b16557d0a24ba5aff386e860ca674c",
+			"remote": true
+		}
 	]
 	/**
 	 * Smart Placement
