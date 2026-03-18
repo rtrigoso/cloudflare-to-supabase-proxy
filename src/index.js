@@ -4,7 +4,7 @@ const WINDOW_SECS = 60;       // per minute
 const MAX_BODY_BYTES = 10 * 1024; // 10 KB
 const BLOCKED_METHODS = new Set(["DELETE", "PUT", "PATCH"]);
 
-const ALLOWED_ORIGIN_RE = /^https:\/\/[^.]+\.renfoc\.us$|^http:\/\/localhost(:\d+)?$/;
+const ALLOWED_ORIGIN_RE = /^https:\/\/([^.]+\.)?renfoc\.us$|^https:\/\/[^.]+\.renfoc-us\.pages\.dev$|^http:\/\/localhost(:\d+)?$/;
 
 export default {
   async fetch(req, env) {
